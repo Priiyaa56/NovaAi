@@ -635,7 +635,7 @@ function ToolBox({ tool }) {
 
       try {
         const response = await fetch(
-          "http://localhost:5000/api/generate-image",
+          "https://nova-ai-two-liart.vercel.app/api/generate-image",
           {
             method: "POST",
             headers: {
